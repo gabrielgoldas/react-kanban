@@ -29,18 +29,18 @@
       "priority": "medium"
     },
     {
-      "id": "6",
-      "title": "Implementar testes",
-      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
-      "status": "done",
-      "priority": "medium"
-    },
-    {
       "id": "3f00",
       "title": "Desenvolver em Php",
       "description": "Pra hoje",
       "status": "doing",
       "priority": "high"
+    },
+    {
+      "id": "cda0",
+      "title": "Fazer site responsivo",
+      "description": "Usando React e Js",
+      "status": "todo",
+      "priority": "medium"
     }
   ]
 }

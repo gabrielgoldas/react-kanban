@@ -1,6 +1,8 @@
-import { Badge, Button, Card, Flex, Heading, Text } from "@radix-ui/themes"
+import { Badge, Button, Card, Dialog, Flex, Heading, Text } from "@radix-ui/themes"
 import { Task, TaskPriority, TaskStatus } from "../entities/Task"
 import { useTasks } from "../hooks/useTasks"
+import { Pencil2Icon } from "@radix-ui/react-icons"
+import { DialogNewTask } from "./DialogNewTask"
 
 interface TaskCardProps {
   task: Task
@@ -43,11 +45,11 @@ export const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
     }
   }
 
-  const handleUpdate = () => {
+  const handleUpdateStatus = () => {
     if (task.status === "todo") {
-      updateTask(task.id, {status: "doing"})
+      updateTask(task.id, { status: "doing" })
     } else if (task.status == "doing") {
-      updateTask(task.id, {status: "done"})
+      updateTask(task.id, { status: "done" })
     }
   }
 
@@ -62,11 +64,11 @@ export const TaskCard: React.FC<TaskCardProps> = ({ task }) => {
 
       <Flex gap={"2"}>
         {task.status !== "done" && (
-          <Button color={getActionColors(task.status)} onClick={handleUpdate} >
+          <Button color={getActionColors(task.status)} onClick={handleUpdateStatus} >
             {getActionText(task.status)}
           </Button>
-          )}
-          <Button color="red" onClick={() => handleDelete(task.id)}>Excluir</Button>
+        )}
+        <Button color="red" onClick={() => handleDelete(task.id)}>Excluir</Button>
       </Flex>
     </Card>
   )
