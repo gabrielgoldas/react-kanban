@@ -7,44 +7,18 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## React Kanban
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![image](https://github.com/user-attachments/assets/3f6d1e7c-5b6e-492c-8d02-6f146a07fe66)
 
-- Configure the top-level `parserOptions` property like this:
+Desenvolvido com Vite, este projeto React Kanban oferece uma experiência de usuário intuitiva e responsiva, sendo o objetivo principal, consolidar meus conhecimentos nessas tecnologias, explorando novas ferramentas e técnicas de desenvolvimento.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Ao longo do processo, tive a oportunidade de me aprofundar em conceitos como tipagem com TypeScript, que garante a segurança e manutenibilidade do código, e criação de layouts consistentes e acessíveis com Radix UI. A biblioteca Zod, por sua vez, facilitou a declaração e validação de schemas de forma eficiente.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+O principal desafio foi criar um aplicativo responsivo e funcional, aplicando os conceitos mencionados e explorando as funcionalidades das bibliotecas utilizadas. A experiência me permitiu:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+**• Consolidar o aprendizado em React e TypeScript**: Através da aplicação prática em um projeto real.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**•Explorar novas ferramentas e técnicas**: Ampliando meu repertório de desenvolvimento com Radix UI e Zod.
+
+**• Aprimorar minhas habilidades**: Enfrentando desafios e buscando soluções eficientes.
