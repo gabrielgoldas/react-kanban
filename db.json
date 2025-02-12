@@ -1,60 +1,46 @@
 {
   "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Enviar relatório",
       "description": "Enviar o relatório mensal para o departamento financeiro.",
-      "status": "doing",
+      "status": "done",
       "priority": "high"
     },
     {
-      "id": 2,
-      "title": "Reunião com a equipe",
-      "description": "Reunião para discutir o progresso do projeto e próximos passos.",
-      "status": "todo",
-      "priority": "high"
-    },
-    {
-      "id": 3,
+      "id": "3",
       "title": "Atualizar o site",
       "description": "Fazer atualizações no site da empresa com novas informações.",
       "status": "done",
       "priority": "medium"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Implementar testes",
       "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
       "status": "todo",
       "priority": "medium"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Implementar testes",
       "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
-      "status": "doing",
-      "priority": "medium"
-    },
-    {
-      "id": 6,
-      "title": "Implementar testes",
-      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
-      "status": "doing",
-      "priority": "medium"
-    },
-    {
-      "id": "186c",
-      "title": "Test",
-      "description": "TEst",
-      "status": "todo",
-      "priority": "low"
-    },
-    {
-      "id": "d2e2",
-      "title": "Test 2",
-      "description": "Test 2",
       "status": "done",
       "priority": "medium"
+    },
+    {
+      "id": "6",
+      "title": "Implementar testes",
+      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
+      "status": "done",
+      "priority": "medium"
+    },
+    {
+      "id": "3f00",
+      "title": "Desenvolver em Php",
+      "description": "Pra hoje",
+      "status": "doing",
+      "priority": "high"
     }
   ]
 }
