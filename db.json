@@ -27,6 +27,34 @@
       "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
       "status": "todo",
       "priority": "medium"
+    },
+    {
+      "id": 5,
+      "title": "Implementar testes",
+      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
+      "status": "doing",
+      "priority": "medium"
+    },
+    {
+      "id": 6,
+      "title": "Implementar testes",
+      "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
+      "status": "doing",
+      "priority": "medium"
+    },
+    {
+      "id": "186c",
+      "title": "Test",
+      "description": "TEst",
+      "status": "todo",
+      "priority": "low"
+    },
+    {
+      "id": "d2e2",
+      "title": "Test 2",
+      "description": "Test 2",
+      "status": "done",
+      "priority": "medium"
     }
   ]
 }
